@@ -5,7 +5,4 @@ Aby uruchomić aplikację należy włączyć serwer appium na porcie 4723 oraz p
 ```bash
 ./gradlew run "movie title"
 ```
-W głównym pliku w fukncji openApplication() należy zmienić właściwie dla własnej konfiguracji podane pola:
-platformVersion
-deviceName
-udid
+W głównym pliku w fukncji openApplication() należy zmienić właściwie dla własnej konfiguracji podane pola: platformVersion, deviceName, udid.
